@@ -15,19 +15,14 @@ body {
   color: #000;
 }
 
-
 img {
   margin-right: 15px;
 }
 
 .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-}
-
-#quote {
-  margin: 10px;
 }
 
 @media screen and (max-width: 480px) {
