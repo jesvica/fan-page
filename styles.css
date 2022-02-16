@@ -2,6 +2,7 @@
 
 h1 {
   font-size: 50px;
+  text-align: center;
 }
 
 h3 {
@@ -16,11 +17,16 @@ body {
 }
 
 img {
-  margin-right: 15px;
+  width: 500px;
 }
 
 .container {
-  display: flex;
+  display: grid;
+  grid-template-areas: "p img"
+                        "quote img";
+  grid-template-columns: auto 500px;
+  grid-template-rows: auto auto;
+  grid-gap: 20px;
   justify-content: space-around;
   align-items: center;
 }
